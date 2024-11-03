@@ -1,0 +1,62 @@
+.Cardsv {
+    width: 300px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card-content {
+    padding: 16px;
+  }
+  .card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+  }
+  .card-subtitle {
+    font-size: 1em;
+    color: #666;
+  }
+  .card-description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  .card-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+  }
+  .origin-planet {
+    margin-top: 16px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  .origin-planet h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  .origin-planet img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .planet-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+  }
